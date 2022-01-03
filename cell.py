@@ -10,7 +10,7 @@ class cell:
         self.btwnLD=btwnLD
         self.btwnLU=btwnLU
 
-        self.cell_type=cell_type
+        self.cell_type="cell"
         self.hcost=0
         self.ghost=0
         self.fcost=self.hcost+self.ghost
